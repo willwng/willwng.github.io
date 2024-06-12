@@ -3,57 +3,43 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Projects - Wang</title>
-    <link rel="stylesheet" href="projects.css" />
-    <link rel="stylesheet" href="nav.css" />
+	<meta charset="UTF-8">
+	<title>Projects - Wang</title>
+	<link rel="stylesheet" href="projects.css" />
+	<link rel="stylesheet" href="nav.css" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-  </head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
 
 <body>
-	<nav
-      class="navbar nav nav-masthead fixed-top navbar-expand-sm bg-dark navbar-dark"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html" style="float: left">
-          <img src="images/logo.png" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapsibleNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse"
-          id="collapsibleNavbar"
-          style="float: right"
-        >
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="research.html">Research</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	<nav class="navbar nav nav-masthead fixed-top navbar-expand-sm bg-dark navbar-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html" style="float: left">
+				<img src="images/logo.png" />
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar" style="float: right">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="projects.html">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="research.html">Research</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About Me</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
 	<div class="intro">
 
@@ -76,8 +62,10 @@
 
 					<h2>Snake AI Gamebot </h2>
 					<i>Machine Learning</i>
-					<p>A side-project in high school, this bot uses Tensorflow to train a simple NN model with real player data. 
-					The data contains a minimal amount of information such as the snake's direction, distance to the wall,
+					<p>A side-project in high school, this bot uses Tensorflow to train a simple NN model with real
+						player data.
+						The data contains a minimal amount of information such as the snake's direction, distance to the
+						wall,
 						and the vector from the head to the apple.
 					</p>
 				</div>
@@ -108,7 +96,7 @@
 					<p>
 						I built this project in around 2-3 hours as a test of my C++ "skills."
 						This is a simulation of electrons existing on a "sphere" world. This problem
-						minimizes the forces/energy between every electron pair. 
+						minimizes the forces/energy between every electron pair.
 						The resulting shape forms interesting spiral patterns.
 					</p>
 				</div>
@@ -134,11 +122,11 @@
 		<div class="column">
 			<div class="project">
 				<div class="desc">
-					<img src="images/Javalin.png" >
+					<img src="images/Javalin.png">
 					<h2>Javalin</h2>
 					<i>Compiler</i>
-					<p> 
-						Written in Kotlin, an optimizing compiler targeting 
+					<p>
+						Written in Kotlin, an optimizing compiler targeting
 						x86 for a procedural language, Xi. Won the "2022 Compiler Bakeoff"
 						Partners: Omkar Bhalerao, Vivian Ding, Felix Roz
 					</p>
@@ -170,8 +158,10 @@
 					<h2>Chess</h2>
 					<i>Game AI</i>
 					<p>
-						Also in the 2-3 days I made an Ultimate Tic-Tac-Toe game, I built my own chess engine and GUI with simple opponent AI. The AI
-						features a minimax search (including alpha-beta pruning) and a simple evaluation function to assess
+						Also in the 2-3 days I made an Ultimate Tic-Tac-Toe game, I built my own chess engine and GUI
+						with simple opponent AI. The AI
+						features a minimax search (including alpha-beta pruning) and a simple evaluation function to
+						assess
 						~20,000 positions per second.
 					</p>
 				</div>
@@ -185,11 +175,11 @@
 					<h2>Redox Wireless</h2>
 					<i>Keyboard</i>
 					<p>
-					Based on the <a href="https://github.com/mattdibi/redox-keyboard"> 
-						Redox Wireless 
-					</a>. This is the custom mechanical keyboard I 
-						built (hand-soldered pcbs and 3D printed cases). 
-						Wireless, orthilinear, hot-swap. 
+						Based on the <a href="https://github.com/mattdibi/redox-keyboard">
+							Redox Wireless
+						</a>. This is the custom mechanical keyboard I
+						built (hand-soldered pcbs and 3D printed cases).
+						Wireless, orthilinear, hot-swap.
 					</p>
 				</div>
 			</div>
@@ -255,14 +245,14 @@
 					<h2>WackyMXter</h2>
 					<i>Keyboard</i>
 					<p>
-					My most ambitious build so far, I am designing a PCB for a split
-					keyboard with an RP2040 microcontroller. Stay tuned!
+						My most ambitious build so far, I am designing a PCB for a split
+						keyboard with an RP2040 microcontroller. Stay tuned!
 					</p>
 				</div>
 			</div>
 			<br>
 		</div>
-
+	</div>
 
 </body>
 
