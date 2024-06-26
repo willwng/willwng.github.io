@@ -12,7 +12,7 @@ horizontal: false
 <article>
 
   <hr>
-  <h2>Teaching</h2>
+  <h2>Teaching Assistant</h2>
   {% for course in site.data.coursework_taught %}
     {% include class.liquid title=course.title description=course.description %}
   {% endfor %}
