@@ -5,8 +5,8 @@ permalink: /
 
 profile:
   align: right
-  image: me.png
-  image_circular: true
+  image: me.jpg
+  image_circular: false
 
 education: true
 work_experience: true
