@@ -20,7 +20,7 @@ layout: default
             {% if page.profile.image_circular %}
               {% assign profile_image_class = 'rounded-circle' %}
             {% else %}
-              {% assign profile_image_class = 'img-fluid 
+              {% assign profile_image_class = 'img-fluid
         rounded' %}
             {% endif %}
             {%
@@ -69,13 +69,17 @@ layout: default
       <hr>
       </hr>
       <h2>
-        <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar">
-        Selected Publications <i class="ai ai-google-scholar"></i>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"
+          title="Google Scholar"
+        >
+          Selected Publications <i class="ai ai-google-scholar"></i>
         </a>
       </h2>
-      
+
       {% include selected_papers.liquid %}
     {% endif %}
-
   </article>
 </div>
