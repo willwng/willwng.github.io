@@ -6,7 +6,7 @@ permalink: /projects/
 nav: true
 nav_order: 2
 display_categories: [ongoing, previous]
-use_header: true
+# use_header: true
 horizontal: true
 ---
 
