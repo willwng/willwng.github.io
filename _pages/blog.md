@@ -9,8 +9,8 @@ pagination:
   enabled: true
   collection: posts
 ---
-<p>I'll write half-baked scientific thoughts here</p>
 
+<p>I'll write half-baked scientific thoughts here</p>
 
 <div class="post">
 
